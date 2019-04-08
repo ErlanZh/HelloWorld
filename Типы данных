@@ -1,0 +1,52 @@
+Package com.company;
+Public class Main
+  {
+  Public static void main(String[] args)
+    {
+    // boolean: хранит значение true или false
+    Boolean isActive = false;
+    Boolean isAlive = true;
+    System.out.println("isActive = " + isActive);
+    System.out.println("isAlive = " + isAlive);
+
+    //byte: хранит целое число от -128 до 127 и занимает 1 байт
+    Byte a = 3;
+    Byte b = 8;
+    System.out.println("a = " + a);
+    System.out.println("b = " + b);
+
+    //short: хранит целое число от -32768 до 32767
+    Short a1 = 3;
+    Short b1 = 8;
+    System.out.println("a1 = " + a1);
+    System.out.println("b1 = " + b1);
+
+    //int: хранит целое число от -2147483648 до 2147483647
+    Int a2 = 4;
+    Int b2 = 9;
+    System.out.println("a2 = " + a2);
+    System.out.println("b2 = " + b2);
+
+    //long: хранит целое число от -9223372036854775808 до 9223372036854775807
+    Long a3 = 5;
+    Long b3 = 10;
+    System.out.println("a3 = " + a3);
+    System.out.println("b3 = " + b3);
+
+    //double: хранит число с плавающей точкой от +-]4,9*10[-324] до +-1.8*10[308]
+    Double x = 8.5;
+    Double y = 2.7;
+    System.out.println("x = " + x);
+    System.out.println("y = " + y);
+
+    //float: хранит число с плавающей точкой от -3,4*10[38] до 3,4*10[38]
+    Float x1 = 8.5F;
+    Float y1 = 2.7F;
+    System.out.println("x1 = " + x1);
+    System.out.println("y1 = " + y1);
+
+    //char: хранит одиночный символ в кодировке UTF-16 и занимает 2 байта, поэтому диапазон хранимых значений от 0 до 65536
+    Char k = '6';
+    System.out.println("k = " + k);
+    }
+  }
