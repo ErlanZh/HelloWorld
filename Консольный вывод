@@ -1,0 +1,35 @@
+package com.company;
+public class Main {
+    public static void main(String[] args) {        
+        System.out.println("Hello World!");
+        System.out.println("Bye world...");
+
+        System.out.print("Hello World!");
+        System.out.print(" ");
+        System.out.print("Bye world...");
+
+        System.out.println(" ");
+        System.out.print("Hello World! \n");
+        System.out.print("Bye world...");
+
+        int x = 5, y = 6;
+        System.out.println(" ");
+        System.out.println("x = " + x + "; y = " + y + ";");
+
+        System.out.printf("x = %d; y = %d; \n", x, y);
+        /*
+        * %d - вывод целочисленные значения
+        * %f - вывод чисел с плавающей точкой. При вводе чисел с плавающей точкой можно указать количество знаков после
+        * запятой. Нужно использовать спецификатор на %.2f, где .2 указывает, что после запятой будет два знака.
+        * %x - вывод шестнадцатеричных чисел
+        * %e - вывод чисел в экспоненциальной форме, например 1.3e+01
+        * %c - вывод одиночного символа
+        * %s - вывод строковых значений
+        * */
+
+        String name = "Tom";
+        int age = 30;
+        float height = 1.7f;
+        System.out.printf("Name: %s\nAge: %d\nHeight: %.2f", name, age, height);
+    }
+}
