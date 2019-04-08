@@ -1,14 +1,12 @@
 Package com.company;
-
 Public class Main{
-
-Public static void main(String[] args){
-
-Int x = 1, y = 2;// Переменные
-Var x1 = 10;// Переменная с авто типом, по переданному значению (обязательно присваивать значение)
-Finalint z = 5;// Константа
-System.out.println(x + y);
-System.out.println(x1);
-System.out.println(z);
-}
+  Public static void main(String[] args)
+  {
+    Int x = 1, y = 2;// Переменные
+    Var x1 = 10;// Переменная с авто типом, по переданному значению (обязательно присваивать значение)
+    Finalint z = 5;// Константа
+    System.out.println(x + y);
+    System.out.println(x1);
+    System.out.println(z);
+  }
 }
