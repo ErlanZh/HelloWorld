@@ -1,0 +1,31 @@
+package com.company;
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Input a number: ");
+        int num = in.nextInt();
+        System.out.printf("Your number: %d\n", num);
+
+        /* Класс Scanner имеет еще ряд методов, которые позволяют получить введенные пользователем значения:
+        * next() - считывает введенную строку до первого пробела
+        * nextLine() - считывает всю введенную строку
+        * nextInt(0 - считывает введенное число int
+        * nextDouble() - считывает введеное число double
+        * nextBoolean() - считывает введеное число boolean
+        * nextByte() - считывает введенное число byte;
+        * nextFloat() - считывает введенное число float;
+        * nextShort() - считывает введенное число short;
+        * */
+
+        Scanner in1 = new Scanner(System.in);
+        System.out.print("Input name: ");
+        String name = in1.nextLine();
+        System.out.print("Input age: ");
+        int age = in1.nextInt();
+        System.out.print("Input height: ");
+        float height = in1.nextFloat();
+        System.out.printf("Name: %s\nAge: %d\nHeight: %.2f", name, age, height);
+    }
+}
